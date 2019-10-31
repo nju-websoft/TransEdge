@@ -92,13 +92,13 @@ python3 transedge_lp.py --mode 'projection' \
 > If you have any difficulty or question in running code and reproducing experimental results, please email to zqsun.nju@gmail.com and whu@nju.edu.cn.
 
 ### Disclaimer
-The link prediction version of TransEdge is implemented based on the [open-source implementation of TransE](https://github.com/ZichaoHuang/TransE).
+The link prediction version of TransEdge is implemented based on the [open-source code of TransE](https://github.com/ZichaoHuang/TransE).
 
 ## Citation
 If you use our model or code, please kindly cite it as follows:      
 ```
 @inproceedings{TransEdge,
-  author    = {Zequn Sun and JiaCheng Huang and Wei Hu and Muhao Chen and Lingbing Guo and Yuzhong Qu},
+  author    = {Zequn Sun and Jiacheng Huang and Wei Hu and Muhao Chen and Lingbing Guo and Yuzhong Qu},
   title     = {TransEdge: Translating Relation-Contextualized Embeddings for Knowledge Graphs},
   booktitle = {ISWC},
   pages     = {612--629},
