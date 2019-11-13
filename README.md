@@ -37,7 +37,6 @@ python3 transedge_ea.py --mode 'projection' \
                         --neg_param 0.8 \
                         --n_neg_triple 20 \
                         --truncated_epsilon 0.95 \
-                        --truncated_frequency 10 \
                         --mlp_layers 1 \
                         --learning_rate 0.01 \
                         --batch_size 2000 \
@@ -58,7 +57,6 @@ python3 transedge_ea.py --mode 'projection' \
                         --neg_param 0.8 \
                         --n_neg_triple 20 \
                         --truncated_epsilon 0.95 \
-                        --truncated_frequency 10 \
                         --mlp_layers 1 \
                         --learning_rate 0.01 \
                         --batch_size 2000 \
@@ -67,8 +65,7 @@ python3 transedge_ea.py --mode 'projection' \
                         --is_bp True \
                         --sim_th 0.7 \
                         --top_k 10 \
-                        --bp_param 0.05 \
-                        --op_is_tanh True \
+                        --op_is_tanh True
 ```
 
 To run TransEdge-CP on WN18RR, use the following script:
