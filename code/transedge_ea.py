@@ -208,7 +208,7 @@ def train():
     parser.add_argument('--top_k', type=int, default=10)
     parser.add_argument('--is_bp', type=ast.literal_eval, default=False)
     parser.add_argument('--csls', type=int, default=5)
-    parser.add_argument('--bp_param', type=float, default=0.05)
+    parser.add_argument('--bp_param', type=float, default=0.02)
     parser.add_argument('--start_bp', type=int, default=2)
     parser.add_argument('--bp_freq', type=int, default=1)
 
