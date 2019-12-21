@@ -2,7 +2,7 @@
 Source code for ISWC-2019 paper "[TransEdge: Translating Relation-contextualized Embeddings for Knowledge Graphs](https://link.springer.com/chapter/10.1007/978-3-030-30793-6_35)". 
 
 <p align="center">
-  <img width="90%" src="https://github.com/sunzequn/RelationE/blob/master/TransEdge_illustration.png" />
+  <img width="90%" src="https://github.com/nju-websoft/TransEdge/blob/master/TransEdge_illustration.png" />
 </p>
 
 ## Dataset
@@ -10,7 +10,6 @@ Source code for ISWC-2019 paper "[TransEdge: Translating Relation-contextualized
 * For link prediction, we use two datasets FB15k-237 and WN18RR, which can be downloaded from [ConvE](https://github.com/TimDettmers/ConvE).
 
 ## Code
-
 * "transedge_ea.py" is the implementation of TransEdge for entity alignment;
 * "transedge_lp.py" is the implementation of TransEdge for link prediction.
 
